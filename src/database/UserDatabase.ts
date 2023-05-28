@@ -41,6 +41,15 @@ export class UserDatabase extends BaseDatabase {
     return userDB;
   };
 
+  //Find User By Email
+  findUserByEmail = async (email: string): Promise<UserDB | undefined> => {
+    const [userDB]: UserDB[] | undefined = await BaseDatabase.connection(
+      UserDatabase.TABLE_USERS
+    ).where({ email });
+
+    return userDB;
+  };
+
   //Update User
   updateUser = async (userDB: UserDB): Promise<void> => {
     await BaseDatabase.connection(UserDatabase.TABLE_USERS)
