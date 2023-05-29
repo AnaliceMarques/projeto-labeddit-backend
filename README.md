@@ -9,6 +9,7 @@ Este projeto foi desenvolvido com base em POO e arquitetura em camadas, onde sã
 [Clique aqui!](https://documenter.getpostman.com/view/25826777/2s93m8yKse)
 
 ## **Link para acesso:**
+https://deploy-projeto-labeddit.onrender.com
 
 ## **Funcionalidades do Projeto**
 
