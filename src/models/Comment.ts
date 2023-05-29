@@ -12,8 +12,8 @@ export interface CommentDB {
 export interface CommentDBWhitUsername {
   id: string;
   user_id: string;
+  post_id: string;
   content: string;
-  comments: number;
   likes: number;
   dislikes: number;
   created_at: string;

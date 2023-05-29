@@ -1,4 +1,4 @@
--- Active: 1684779186175@@127.0.0.1@3306
+-- Active: 1685347570943@@127.0.0.1@3306
 
 CREATE TABLE users (
     id TEXT PRIMARY KEY UNIQUE NOT NULL,
@@ -13,7 +13,7 @@ CREATE TABLE users (
 INSERT INTO users (id, username, email, password, role)
 VALUES
   -- tipo NORMAL e senha = joao123
-	('u001', 'João', 'joão@email.com', '$2a$12$PjTGJscEb11/USRs3EIjQ.8h9eUvImB.MzGs2KtAF7K6llyfiY/5q', 'NORMAL'),
+	('u001', 'João', 'joao@email.com', '$2a$12$PjTGJscEb11/USRs3EIjQ.8h9eUvImB.MzGs2KtAF7K6llyfiY/5q', 'NORMAL'),
 
   -- tipo NORMAL e senha = maria123
 	('u002', 'Maria', 'maria@email.com', '$2a$12$udqtqCxbTL0qnT3wxScd8Oj1CoN5Q5Pz8jWVFm.6V9loY8Kyl0csW', 'NORMAL'),
